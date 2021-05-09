@@ -1,4 +1,12 @@
 
+/* Timer Styling */
+
+#timer {
+    font-size: large;
+}
+
+
+
 /* Hero Image */
 
 .callout-container {
@@ -9,6 +17,11 @@
     align-items: center;
     position: relative;
 }
+
+
+
+
+
 
 /* Map styling */
 
