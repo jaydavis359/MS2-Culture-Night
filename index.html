@@ -14,9 +14,10 @@
     <!-- Bootstrap 4 Grid System and Components In Use -->
     <!-- Navagation header as per Bootstrap Nav Documentation -->
     <!-- javascript in use for navbar collapse to hamburger icon with some code from academind youtube channel and bootstrap docs -->
+    <!-- Some HTML Structural Elements adapted from MS1 project -->
     <header>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a href="index.html" class="navbar">
                 <h1>River Lee Fest</h1>
             </a>
@@ -43,37 +44,65 @@
     </header>
 
     <!--Landing page hero image -->
-
-    <section>
-
-        <div class="container-fluid callout-container">
-            <!-- weather api? -->
-            <h2>An Evening of Music and Culture 30th July 2021</h2>
-            <p class="countdown" id="timer"></p>
+    <div class="row callout-container">
+        <!-- weather api? -->
+        <div class="col-6">
+            <h2 class="subtitle">An Evening of Music and Culture 30th July 2021</h2>
         </div>
-
-    </section>
-
+        <div class="col-6">
+            <h2 class="countdown" id="timer"></h2>
+        </div>
+    </div>
     <!-- about -->
+    <div class="container about-container">
+        <div>
+            <h2>What is River Lee Fest?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deleniti eum, laboriosam fugit
+                asperiores
+                placeat assumenda a, pariatur natus et repudiandae exercitationem mollitia omnis dignissimos voluptatum
+                temporibus provident vitae autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe quam
+                cumque aspernatur dolore maxime. Repudiandae obcaecati facere, maiores reiciendis, dolorem deleniti
+                ratione rem soluta velit, blanditiis voluptates at distinctio quam! Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Laborum beatae velit, minus, perspiciatis consequatur eum a neque
+                excepturi voluptates, quas quaerat. Nisi totam ipsa, nulla enim illo suscipit aliquid maxime!</p>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    <li>Lorem ipsum dolor sit, amet consectetur</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur</li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul>
+                    <li>Lorem ipsum dolor sit, amet consectetur</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-    <section>
-
-
-
-    </section>
 
     <!-- events & map -->
 
-    <div class="row eventsnav">
-        <div class="col-6">
-
-    <!-- buttons -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- buttons -->
+            <div class="col-4">
+                <div class = "btn-group-vertical">
+                <button type="button" class="btn btn-danger">Info</button>
+                <button type="button" class="btn btn-danger">Info</button>
+                <button type="button" class="btn btn-danger">Info</button>
+                <button type="button" class="btn btn-danger">Info</button>
+                </div>
+            </div>
+            <div id="map" class="col-8">
+            </div>
         </div>
-        <div id="map" class="col-8">
-
-        </div>
-
-
     </div>
 
 
@@ -93,7 +122,7 @@
 
     </footer>
 
-    
+
 
     <script
         src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
@@ -115,7 +144,7 @@
     </script>
     <script src="assets/js/map.js"></script>
     <script src="assets/js/script.js"></script>
-    
+
 
 </body>
 
