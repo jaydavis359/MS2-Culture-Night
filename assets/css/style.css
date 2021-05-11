@@ -1,41 +1,48 @@
 /* Navbar styling */
 
 .bg-dark {
-    background-color: black!important;
+    background-color: black !important;
 }
 
 
 /* Neon effect taken from "https://www.tiny.cloud/blog/neon-fonts-and-glowing-text-get-started-in-two-steps/" */
 h1 {
+    font-size: 70px;
     color: #fff;
-  text-align: center;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
 }
 
 a.nav-link {
     color: #fff;
-  text-align: center;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
 }
+
 /* Hero Image */
 
 .callout-container {
     height: 100vh;
-    background: url(../images/rachel-coyne-U7HLzMO4SIY-unsplash.jpg) no-repeat center center fixed;
+    background: url(../images/concert-768722.jpg) no-repeat center center fixed;
     background-size: cover;
-    display: flex;
-    align-items: center;
+    width: auto;
     position: relative;
 }
 
 .subtitle {
     font-size: 50px;
+    margin-top: 30rem;
 }
 
 /* Timer Styling */
 
 #timer.countdown {
     font-size: 50px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    margin-bottom: 0;
+    margin-top: 30rem;
 }
 
 
@@ -43,8 +50,15 @@ a.nav-link {
 /* Map styling */
 
 #map {
-    height:500px;
-    width: 60%;
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.button-block {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* About section */
@@ -52,4 +66,58 @@ a.nav-link {
 .about-container {
     padding-top: 10rem;
     padding-bottom: 10rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    margin-bottom: 0;
+}
+
+.footer-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.fa-envelope {
+    margin-right: 6px;
+    margin-left: 8px;
+}
+
+.form-control {
+    margin-right: 4px;
+}
+
+.email-submit-button {
+    height: 48px;
+    margin-left: 4px;
+}
+
+
+/* social links with help from resume project */
+
+.social-links li a i {
+    font-size: 30px;
+    color: #c5a374;
+    margin-right: 20px;
+    padding-top: 2rem;
+}
+
+.social-links i:hover {
+    color: white;
+}
+
+.disclaimer {
+    padding-top: 2rem;
+}
+
+/* Booking page */
+.booking-background {
+    height: 100vh;
+    background: url(../images/pexels-mahe-haroutinian-3748176.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
 }
