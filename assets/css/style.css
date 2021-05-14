@@ -1,3 +1,7 @@
+body {
+    background-color: lightskyblue;
+}
+
 /* Navbar styling */
 
 .bg-dark {
@@ -16,7 +20,7 @@ h1 {
 a.nav-link {
     color: #fff;
     text-align: center;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
 }
 
 @media screen and (max-width: 568px) {
@@ -56,7 +60,7 @@ a.nav-link {
 
 .callout-container {
     height: 100vh;
-    background: url(../images/concert-768722.jpg) no-repeat center center fixed;
+    background: url(../images/Heroimage-pexels-brett-sayles.jpg) no-repeat center center fixed;
     background-size: cover;
     width: auto;
     position: relative;
@@ -70,6 +74,16 @@ a.nav-link {
     margin-bottom: 0;
 }
 
+.fa-chevron-down {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
+    font-size: 25px;
+    position: relative;
+    left: 48%;
+    top: 90%;
+}
+
 /* Timer Styling */
 
 #timer.countdown {
@@ -78,14 +92,21 @@ a.nav-link {
     color: #fff;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
     margin-bottom: 0;
-    margin-top: 30rem;
+    margin-top: 3rem;
 }
 
-body {
-    background-color:#6dd5ed;
-}
+
+
 /* About Section */
+p {
+    font-size: 25px;
+}
 
+.map-click {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
+}
 
 /* Map styling */
 
@@ -95,12 +116,6 @@ body {
     margin-bottom: 3rem;
 }
 
-
-
-.button-block {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
 
 /* About section */
 
@@ -120,7 +135,7 @@ footer {
     background-color: #343a40;
     color: #fff;
     text-align: left;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
     margin-bottom: 0;
 }
 
@@ -152,7 +167,7 @@ footer {
     font-size: 30px;
     color: #fff;
     text-align: center;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
     margin-right: 20px;
     padding-top: 2rem;
 }
@@ -180,13 +195,14 @@ footer {
 
 .main-img img,
 .imgs img {
-  width: 100%;
+    width: 100%;
 }
 
 .imgs {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+
 }
 
 
