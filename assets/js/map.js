@@ -22,21 +22,29 @@ function initMap() {
 
         [{
             lat: 51.89998338008335, lng: -8.402590141269446
-        }, "other event"],
+        }, "Event"],
 
         [{
             lat: 51.89810202460546, lng: -8.42096372432869
-        }, "Main Stage "]
+        }, "Main Stage "],
 
         [{
             lat: 51.898235891133474, lng: -8.412976695458156
-        }, "other event"]
+        }, "other event"],
+
+        [{
+            lat: 51.89884668490031, lng: -8.421636912591142
+        }, "Food Truck"],
+
+        [{
+            lat: 51.89848276735153, lng: -8.41922274884678
+        }, "Street Food"],
 
     ];
     // Create an info window to share between markers.
     const infoWindow = new google.maps.InfoWindow();
     // Create the markers.
-    events.forEach(([position, title], i) => {
+    events.forEach(([position, title]) => {
         const marker = new google.maps.Marker({
             position,
             map,
@@ -50,7 +58,5 @@ function initMap() {
             infoWindow.open(marker.getMap(), marker);
         });
     });
-    var markerCluster = new MarkerClusterer(attractionsMap, markers, {
-        imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-    });
+    
 }

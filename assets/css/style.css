@@ -19,6 +19,39 @@ a.nav-link {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
 }
 
+@media screen and (max-width: 568px) {
+    h1 {
+        letter-spacing: 0;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav-item {
+    padding-right: 2rem;
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.navbar-toggler {
+    border: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 0;
+        padding-left: 3px;
+    }
+}
+
+.fixed-top {
+    margin-bottom: 0;
+}
+
 /* Hero Image */
 
 .callout-container {
@@ -32,6 +65,9 @@ a.nav-link {
 .subtitle {
     font-size: 50px;
     margin-top: 30rem;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    margin-bottom: 0;
 }
 
 /* Timer Styling */
@@ -45,6 +81,10 @@ a.nav-link {
     margin-top: 30rem;
 }
 
+body {
+    background-color:#6dd5ed;
+}
+/* About Section */
 
 
 /* Map styling */
@@ -52,6 +92,7 @@ a.nav-link {
 #map {
     height: 500px;
     width: 100%;
+    margin-bottom: 3rem;
 }
 
 
@@ -64,14 +105,22 @@ a.nav-link {
 /* About section */
 
 .about-container {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
+
+h2 {
+    font-size: 50px;
+}
+
+
+/* Footer styling */
 
 footer {
     background-color: #343a40;
     color: #fff;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    text-align: left;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
     margin-bottom: 0;
 }
 
@@ -112,14 +161,44 @@ footer {
     color: white;
 }
 
+.list-inline-item {
+    margin-left: 3rem;
+}
+
 .disclaimer {
     padding-top: 2rem;
 }
 
+/* Gallery Page styling reference Traversy Youtube channel */
+
+.gallery-container {
+    max-width: 760px;
+    margin: auto;
+    height: 75vh;
+    padding-top: 3rem;
+}
+
+.main-img img,
+.imgs img {
+  width: 100%;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+
 /* Booking page */
 .booking-background {
-    height: 100vh;
+    height: 75vh;
     background: url(../images/pexels-mahe-haroutinian-3748176.jpg) no-repeat center center fixed;
     background-size: cover;
     position: relative;
+}
+
+.booking-text {
+    color: white;
+    padding-top: 2rem;
 }
