@@ -22,7 +22,7 @@ function initMap() {
 
         [{
             lat: 51.89998338008335, lng: -8.402590141269446
-        }, "Event"],
+        }, "Juggling Workshop"],
 
         [{
             lat: 51.89810202460546, lng: -8.42096372432869
@@ -30,15 +30,23 @@ function initMap() {
 
         [{
             lat: 51.898235891133474, lng: -8.412976695458156
-        }, "other event"],
+        }, "Outdoor Jazz Performance"],
 
         [{
             lat: 51.89884668490031, lng: -8.421636912591142
-        }, "Food Truck"],
+        }, "Coffee Dock"],
 
         [{
             lat: 51.89848276735153, lng: -8.41922274884678
         }, "Street Food"],
+
+        [{
+            lat: 51.897765678640184, lng: -8.41306095688119
+        }, "Outdoor Film Screening"]
+
+        [{
+            lat: 51.89747107620612, lng: -8.412610321668772
+        }, "Outdoor Bar Area"]
 
     ];
     // Create an info window to share between markers.
