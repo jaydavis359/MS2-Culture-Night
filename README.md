@@ -29,7 +29,9 @@ The website also has a booking page where the user can request free tickets for 
 
 ### Wireframes
 
-* [Wireframes](Wireframes/Culture Night.bmpr)
+* [Wireframe1](/workspace/MS2-Culture-Night/Wireframes/Wireframe1.pdf)
+* [Wireframe2](/workspace/MS2-Culture-Night/Wireframes/Wireframe2.pdf)
+* [Wireframe3](/workspace/MS2-Culture-Night/Wireframes/Wireframe3.pdf)
 
 ## Features
 
@@ -40,8 +42,7 @@ the whole site, allow for easy viewing of the different elements.
 ### Home Page
 
 * The home page features a responsive navagation bar with links to the other two pages.
-* It features an almost fullscreen hero image of the author, which lets the visitor know they
-are in exactly the right place .
+* It features an almost fullscreen hero image of a guitar, which lets the visitor know what to expect from the site.
 * When the page is scrolled down the home screen features an 'about' paragraph which introduces the festival.
 * Next, a Google Map appears, using the [google maps API](https://developers.google.com/maps) with markers which when clicked display the event in that location.
 * Finally the footer of the page contains an email sign up with submit button for those interested in being kept up to date with news and events, in addition to this
