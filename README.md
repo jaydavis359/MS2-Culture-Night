@@ -29,10 +29,7 @@ The website also has a booking page where the user can request free tickets for 
 
 ### Wireframes
 
-* [Home Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/Home%20Wireframe%201.pdf)
-* [About Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/AboutWireframe%201_1.pdf)
-* [Works Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/WorksWireframe%201.pdf)
-* [Contact Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/ContactWireframe%201.pdf)
+* [Wireframes](Wireframes/Culture Night.bmpr)
 
 ## Features
 
@@ -122,6 +119,7 @@ In the top right of the page there is a 'Fork' button which will create a copy o
 * [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w) YouTube channel for help with code and execution
 of the navbar collapse function.
 * [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for code and formatting issues.
+* [Traversy](https://www.youtube.com/user/TechGuyWeb) Youtube Channel for help with javascript.
 
 ### Images:
 
