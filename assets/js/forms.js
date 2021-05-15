@@ -1,5 +1,5 @@
 // Ticket Booking and contact form Functions
-// Form data email function created with info from course videos
+// Form data using email.js function created with info from course videos
 function sendMail(contactForm) {
     emailjs.send("gmail", "culture-night", {
             "from_name": contactForm.name.value,
