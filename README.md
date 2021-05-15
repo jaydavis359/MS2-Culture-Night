@@ -1,52 +1,151 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Culture Night (River Lee Fest)
 
-Welcome jaydavis359,
+![Heading Responsive image](Testing/Responsive.jpg)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+[View the Live website here](https://jaydavis359.github.io/MS2-Culture-Night/index.html)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Culture Night is a fictional Offical website for the River Lee Festival in Cork City.
 
-`python3 -m http.server`
+The website is a first point of contact for anyone who is looking for information about the fesival.
+The website contains a landing page with a google maps interface showing locations of various activities on the night, it also has a gallery page with a small selection of photos of the events.
+The website also has a booking page where the user can request free tickets for the event by way of an email form.
 
-A blue button should appear to click: _Make Public_,
+## UX
 
-Another blue button should appear to click: _Open Browser_.
+### This website is for :
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Visitors to the website are looking for information about the festival and the location of the evenst.
+* Hosting this website allows a branch of communication to those interested in the festival, who may not otherwise hear about it through print media, or radio.
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+* As a visitor to the website, I want the navagation to be instantly Understandable.
+* As a visiter to the website, I want to learn more about the festivals events.
+* As a visitor to the website, I want to view a map of its various locations.
+* As a visitor to the website, I want to be offered sign up options, to be kept up to date with this event and future events.
+* As a visitor to the website, I want to be able to book tickets for the event from the website.
+* As a visitor to the website, I want the option to follow the event on social media.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Wireframes
 
-To log into the Heroku toolbelt CLI you can use:
+* [Home Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/Home%20Wireframe%201.pdf)
+* [About Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/AboutWireframe%201_1.pdf)
+* [Works Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/WorksWireframe%201.pdf)
+* [Contact Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/ContactWireframe%201.pdf)
 
-`heroku login -i`
+## Features
 
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+The website is designed to be aesthetically pleasing while having full featured navagation options, the classic color palate and fonts which extend across
+the whole site, allow for easy viewing of the different elements.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Home Page
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* The home page features a responsive navagation bar with links to the other three pages.
+* It features an almost fullscreen hero image of the author, which lets the visitor know they
+are in exactly the right place .
+* When the page is scrolled down the home screen features a 'Welcome' jumbotron.
+* Next, another image/graphic show an upcoming book relaese, accompanied by a 'call to action' button which takes the visitor to an external website to purchase the novel.
+* Finally the footer of the page contains an email sign up with submit button for those interested in being kept up to date with news and events, in addition to this
+there are social media icons which direct to the external websites.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### About Page 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* The About page again features the navagation bar.
+* Below the nav bar is a relaxing / fun image of the author sitting on a bench, to ease the visitor in the bio section.
+* A short bio section adapted from the authors [Wikipedia](https://en.wikipedia.org/wiki/Kazuo_Ishiguro) page sits in the middle of the page.
+* Just above the footer is an embedded youtube video, which is an interview with the author Kazuo Ishiguro, this was taken from the
+[Nobel Prize](https://www.youtube.com/channel/UC-V6odR7HzLCuqjYeowPjLA) youtube channel. it is quite a general interest video,
+which should appeal to most visitors to the website.
+* The same footer as before sits at the bottom of the page.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Works Page
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Navagation bar as before.
+* A gallery type section is the focus of this page, the images show the authors work of novels.
+* Each image of a novel has below it two 'call to action' buttons, one gives the visitor the option to buy that novel by visiting an external website (amazon.co.uk).
+The second button offers the visitor the opportunity to read reviews of the novel, also by visiting an external website (goodreads.com).
+* Footer as before.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Contact Page 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Navagation bar as before.
+* Form section which is directed at more professional visitors to the website, looking to contact the author to request interviews,
+speaking egagements etc., the form would then but pushed to authors publisher. 
 
----
+## Features Left to Implement
 
-Happy coding!
+* More media content in the form of published interviews, video interviews, and also podcast / radio appearances.
+* An on site purchase system, so that the visitor is not directed to an external website in order to purchase.
+* The option to change the written language of the page for non english speaking visitors.
+
+## Technologies Used
+
+The website is built using HTML and CSS programming languages.
+
+* [Gitpod](https://gitpod.io/) - Developer environment was used to write the code.
+* [Github](https://github.com/) - Used to host and deploy the code.
+* [Bootstrap 4](https://getbootstrap.com/) - Used primarily for its responsive grid sysyem layout, also bootstrap components documentation for Navagation,
+the 'card' components on the works page, and some of the forms details.
+* [Google Fonts](https://fonts.google.com/) - Used for the websites various fonts.
+* [Font Awsome](https://fontawesome.com/) - The Font Awesome library was used for the icons the website.
+* [favicon.io](favicon.io) - Was used to create the favicon for the browser tab.
+* [TinyJPG](https://tinyjpg.com/) - Used to compress the websites images.
+* [YouTube](youtube.com) - Used for the embedded video.
+* [Amazon](amazon.co.uk) - Used as the redirect for purchasing of the authors work.
+* [Goodreads](goodreads.com) - Used as the redirect for reviews of the authors work.
+* [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en) Chrome extension, which I used to select my color palate.
+
+
+
+## Testing
+
+Details can be found on a separate [Testing](Testing.md) page.
+
+## Deployment
+
+This Website was developed using Gitpod, commited using git, and pushed to Github via the terminal function. 
+
+To deploy this website to GitHub pages from its repository the following actions were taken:
+
+* Log into Github
+* From the list of repositorys displayed, select jaydavis359/MS1-Kazuo-Ishiguro.
+* On the next screen select the settings tab on the right side of the menu.
+* Scroll down this page until you reach the GitHub Pages Section.
+* Click on the highlighted links which will take you to the new GitHub pages dedicated tab.
+* Under the 'Source' Section of this page select the option currently labelled 'none' and change it to 'master branch'.
+* On complection of this action the page will be refreshed and the website will be deployed.
+* The link to the website will now be displayed in the Github Pages section of the settings menu.
+
+To run the Website locally :
+
+* It can be [Forked](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+, which makes an editable copy of the repository, without affecting the original.
+* It can also be [Cloned](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) which creates a 'remote' repository
+which can be synced with the main one.
+
+## Credits
+
+* [Bootstrap](https://getbootstrap.com/) components documentation was used for several elements, 'Navbar' 'Cards' and 'Form' details.
+* [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w) YouTube channel for help with code and execution
+of the navbar collapse function.
+* [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for code and formatting issues.
+
+### Images and video :
+
+* KazuoAbout.jpg was taken from a [New Yorker](newyorker.com) article, copyright: Richard Pohle / 
+The Times / News Syndication / Redux.
+* new-novel.jpg was taken from the Kazuo Ishiguro [Facebook](facebook.com) page, copyright: Unknown.
+* KazuoAbout2.jpeg was taken from a [LA Times](latimes.com) article , copyright: Ben Stansall / AFP/Getty Images.
+* The embedded YouTube video is taken from the [Nobel Prize](https://www.youtube.com/channel/UC-V6odR7HzLCuqjYeowPjLA)
+youtube channel.
+* Book covers on the works page were taken from the Kazuo Ishiguro [Wikipedia](wikipedia.com) page.
+* New book synopsis is edited version of [Amazon](https://www.amazon.co.uk/gp/product/057136487X?pf_rd_r=2M409KDTHTP0K7R7PAYF&pf_rd_p=6e878984-68d5-4fd2-b7b3-7bc79d9c8b60&pd_rd_r=ed44cf05-457c-407d-87ae-0d4458f72874&pd_rd_w=PnJ98&pd_rd_wg=TEZoq&ref_=pd_gw_unk)
+book synopsis.
+
+### Acknowledgements
+
+* I would like to thank my mentor Excellence Ilesanmi for his much needed help to get past the finish line.
+
+### This website is for educational purposes only.
