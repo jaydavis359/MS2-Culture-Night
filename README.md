@@ -15,7 +15,7 @@ The website also has a booking page where the user can request free tickets for 
 
 ### This website is for :
 
-* Visitors to the website are looking for information about the festival and the location of the evenst.
+* Visitors to the website are looking for information about the festival and the location of the events.
 * Hosting this website allows a branch of communication to those interested in the festival, who may not otherwise hear about it through print media, or radio.
 
 ### User Stories
@@ -36,43 +36,30 @@ The website also has a booking page where the user can request free tickets for 
 
 ## Features
 
-The website is designed to be aesthetically pleasing while having full featured navagation options, the classic color palate and fonts which extend across
+The website is designed to be aesthetically pleasing while having full featured navagation options, the vibrant color palate and fonts which extend across
 the whole site, allow for easy viewing of the different elements.
 
 
 ### Home Page
 
-* The home page features a responsive navagation bar with links to the other three pages.
+* The home page features a responsive navagation bar with links to the other two pages.
 * It features an almost fullscreen hero image of the author, which lets the visitor know they
 are in exactly the right place .
-* When the page is scrolled down the home screen features a 'Welcome' jumbotron.
-* Next, another image/graphic show an upcoming book relaese, accompanied by a 'call to action' button which takes the visitor to an external website to purchase the novel.
+* When the page is scrolled down the home screen features an 'about' paragraph which introduces the festival.
+* Next, a Google Map appears, using the [google maps API](https://developers.google.com/maps) with markers which when clicked display the event in that location.
 * Finally the footer of the page contains an email sign up with submit button for those interested in being kept up to date with news and events, in addition to this
 there are social media icons which direct to the external websites.
 
-### About Page 
-
-* The About page again features the navagation bar.
-* Below the nav bar is a relaxing / fun image of the author sitting on a bench, to ease the visitor in the bio section.
-* A short bio section adapted from the authors [Wikipedia](https://en.wikipedia.org/wiki/Kazuo_Ishiguro) page sits in the middle of the page.
-* Just above the footer is an embedded youtube video, which is an interview with the author Kazuo Ishiguro, this was taken from the
-[Nobel Prize](https://www.youtube.com/channel/UC-V6odR7HzLCuqjYeowPjLA) youtube channel. it is quite a general interest video,
-which should appeal to most visitors to the website.
-* The same footer as before sits at the bottom of the page.
-
-### Works Page
+### Gallery Page
 
 * Navagation bar as before.
-* A gallery type section is the focus of this page, the images show the authors work of novels.
-* Each image of a novel has below it two 'call to action' buttons, one gives the visitor the option to buy that novel by visiting an external website (amazon.co.uk).
-The second button offers the visitor the opportunity to read reviews of the novel, also by visiting an external website (goodreads.com).
+* A gallery type section is the focus of this page, the images show outdoor scenes from previous events.
 * Footer as before.
 
-### Contact Page 
+### Booking Page 
 
 * Navagation bar as before.
-* Form section which is directed at more professional visitors to the website, looking to contact the author to request interviews,
-speaking egagements etc., the form would then but pushed to authors publisher. 
+* Form section where visitors can request tickets for the event by email, this information is then forwarded using [email.js](https://www.emailjs.com/) to an email client.
 
 ## Features Left to Implement
 
@@ -92,9 +79,6 @@ the 'card' components on the works page, and some of the forms details.
 * [Font Awsome](https://fontawesome.com/) - The Font Awesome library was used for the icons the website.
 * [favicon.io](favicon.io) - Was used to create the favicon for the browser tab.
 * [TinyJPG](https://tinyjpg.com/) - Used to compress the websites images.
-* [YouTube](youtube.com) - Used for the embedded video.
-* [Amazon](amazon.co.uk) - Used as the redirect for purchasing of the authors work.
-* [Goodreads](goodreads.com) - Used as the redirect for reviews of the authors work.
 * [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en) Chrome extension, which I used to select my color palate.
 
 
