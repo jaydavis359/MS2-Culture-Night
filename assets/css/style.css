@@ -28,6 +28,7 @@ a.nav-link {
         letter-spacing: 0;
         padding-left: 10px;
         padding-top: 4px;
+        font-size: 40px;
     }
 }
 
@@ -84,6 +85,14 @@ a.nav-link {
     top: 90%;
 }
 
+@media screen and (max-width: 600px){
+.subtitle {
+    font-size: 30px;
+    margin-top: 15rem;
+}
+}
+
+
 /* Timer Styling */
 
 #timer.countdown {
@@ -95,6 +104,11 @@ a.nav-link {
     margin-top: 3rem;
 }
 
+@media screen and (max-width: 600px){
+    #timer.countdown {
+        font-size: 30px;
+    }
+}
 
 
 /* About Section */
