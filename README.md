@@ -63,9 +63,9 @@ there are social media icons which direct to the external websites.
 
 ## Features Left to Implement
 
-* More media content in the form of published interviews, video interviews, and also podcast / radio appearances.
-* An on site purchase system, so that the visitor is not directed to an external website in order to purchase.
+* More media content in the form of videos of past events, interviews with artists, and also podcast / radio links.
 * The option to change the written language of the page for non english speaking visitors.
+* Quciker loading times for the various media elements.
 
 ## Technologies Used
 
@@ -104,32 +104,31 @@ To deploy this website to GitHub pages from its repository the following actions
 
 To run the Website locally :
 
-* It can be [Forked](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
-, which makes an editable copy of the repository, without affecting the original.
-* It can also be [Cloned](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) which creates a 'remote' repository
-which can be synced with the main one.
+* It can be 'Forked' which makes an editable copy of the repository, without affecting the original. This can be done from the [repository homepage](https://github.com/jaydavis359/MS2-Culture-Night),
+In the top right of the page there is a 'Fork' button which will create a copy of the repository in your own GitHub account.
+  
+* It can also be 'Cloned' which creates a 'remote' repository which can be synced with the main one. To do this:
+> open the [repository homepage](https://github.com/jaydavis359/MS2-Culture-Night)
+> Click on the 'Code' button near the top right of the screen.
+> Under 'Clone' with the HTTPS option selected, copy the url link.
+> Open your own IDE and switch to the directory where you want the cloned directory.
+> Type 'git clone', and then paste the URL you copied earlier.
+> Press enter and the repository will be cloned.
+
 
 ## Credits
 
-* [Bootstrap](https://getbootstrap.com/) components documentation was used for several elements, 'Navbar' 'Cards' and 'Form' details.
+* [Bootstrap](https://getbootstrap.com/) components documentation was used for several elements.
 * [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w) YouTube channel for help with code and execution
 of the navbar collapse function.
 * [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for code and formatting issues.
 
-### Images and video :
+### Images:
 
-* KazuoAbout.jpg was taken from a [New Yorker](newyorker.com) article, copyright: Richard Pohle / 
-The Times / News Syndication / Redux.
-* new-novel.jpg was taken from the Kazuo Ishiguro [Facebook](facebook.com) page, copyright: Unknown.
-* KazuoAbout2.jpeg was taken from a [LA Times](latimes.com) article , copyright: Ben Stansall / AFP/Getty Images.
-* The embedded YouTube video is taken from the [Nobel Prize](https://www.youtube.com/channel/UC-V6odR7HzLCuqjYeowPjLA)
-youtube channel.
-* Book covers on the works page were taken from the Kazuo Ishiguro [Wikipedia](wikipedia.com) page.
-* New book synopsis is edited version of [Amazon](https://www.amazon.co.uk/gp/product/057136487X?pf_rd_r=2M409KDTHTP0K7R7PAYF&pf_rd_p=6e878984-68d5-4fd2-b7b3-7bc79d9c8b60&pd_rd_r=ed44cf05-457c-407d-87ae-0d4458f72874&pd_rd_w=PnJ98&pd_rd_wg=TEZoq&ref_=pd_gw_unk)
-book synopsis.
+* All images for the project were taken from the royalty free websites [pexels](pexels.com) and [unsplash](unsplash.com).
 
 ### Acknowledgements
 
-* I would like to thank my mentor Excellence Ilesanmi for his much needed help to get past the finish line.
+* I would like to thank my mentor Excellence Ilesanmi for his help and patience.
 
 ### This website is for educational purposes only.
