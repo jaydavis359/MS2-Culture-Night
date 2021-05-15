@@ -29,9 +29,9 @@ The website also has a booking page where the user can request free tickets for 
 
 ### Wireframes
 
-* [Wireframe1](/workspace/MS2-Culture-Night/Wireframes/Wireframe1.pdf)
-* [Wireframe2](/workspace/MS2-Culture-Night/Wireframes/Wireframe2.pdf)
-* [Wireframe3](/workspace/MS2-Culture-Night/Wireframes/Wireframe3.pdf)
+* [Wireframe1](https://github.com/jaydavis359/MS2-Culture-Night/blob/master/Wireframes/Wireframe1.pdf)
+* [Wireframe2](https://github.com/jaydavis359/MS2-Culture-Night/blob/master/Wireframes/Wireframe2.pdf)
+* [Wireframe3](https://github.com/jaydavis359/MS2-Culture-Night/blob/master/Wireframes/Wireframe3.pdf)
 
 ## Features
 
