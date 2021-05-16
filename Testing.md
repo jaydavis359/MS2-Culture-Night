@@ -73,10 +73,6 @@ screen, this was addresssed by using a 'media query' which adjusted the letter s
 allow the title and menu toggle to sit on the same line. This also fixed an issue of the navbar covering the top of the hero 
 image on smaller devices.
 
-
-
-* On older versions of safari on apple devices, the 'new-book.jpg' fails to load, I have not yet resolved this issue.
-
 ## Devices 
 
 In addition to emulated devices in chrome dev tools the Website was inspected on the following physical devices:
