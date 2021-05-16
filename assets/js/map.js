@@ -55,6 +55,10 @@ function initMap() {
             lat: 51.89747107620612,
             lng: -8.412610321668772
         }, "Outdoor Bar Area"],
+
+        [{
+            lat: 51.8982357307204, lng: -8.414933096820635
+        },"Craft Stalls"],
     ];
     // Create an info window to share between markers.
     const infoWindow = new google.maps.InfoWindow();
