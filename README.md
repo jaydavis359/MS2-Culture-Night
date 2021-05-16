@@ -77,6 +77,7 @@ the 'card' components on the works page, and some of the forms details.
 * [Font Awsome](https://fontawesome.com/) - The Font Awesome library was used for the icons the website.
 * [favicon.io](favicon.io) - Was used to create the favicon for the browser tab.
 * [TinyJPG](https://tinyjpg.com/) - Used to compress the websites images.
+* [Squoosh](https://squoosh.app/) - Also used to compress images.
 * [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en) Chrome extension, which I used to select my color palate.
 
 
