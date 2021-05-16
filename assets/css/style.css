@@ -143,6 +143,12 @@ h2 {
     font-size: 50px;
 }
 
+.events {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
+}
+
 
 /* Footer styling */
 
