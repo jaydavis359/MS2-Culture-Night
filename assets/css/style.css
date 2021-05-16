@@ -210,8 +210,8 @@ footer {
 .gallery-container {
     max-width: 900px;
     margin: auto;
-    height: 75vh;
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .main-img img,
@@ -238,4 +238,22 @@ footer {
 .booking-text {
     color: white;
     padding-top: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .footer-content {
+        padding-top: 4rem;
+    }
+}
+
+.btn-secondary {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF6EC7, 0 0 20px #FF6EC7, 0 0 25px #FF6EC7, 0 0 30px #FF6EC7, 0 0 35px #FF6EC7;
 }
