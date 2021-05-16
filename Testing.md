@@ -8,6 +8,7 @@ CSS code was run through this validator and no issues were found.
 * Basic responsiveness checked through [Am I Responsive?](http://ami.responsivedesign.is/).
 * [Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools) - was in constant use throughout the 
 project to check responsiveness and to check formatting, margins, font size etc. on the fly.
+* Within chrome developer tools, The 'Lighthouse' utility flagged some issues such as image file sizes, which were affecting performance, and needed to be compresssed.
 
 ## User Stories Testing
 

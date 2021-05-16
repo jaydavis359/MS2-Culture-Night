@@ -16,38 +16,45 @@ function initMap() {
         }, "Poetry Reading"],
 
         [{
-            lat: 51.90040834773723, lng:
-            -8.402437366503204
+            lat: 51.90040834773723,
+            lng:
+                -8.402437366503204
         }, "Event Launch"],
 
         [{
-            lat: 51.89998338008335, lng: -8.402590141269446
+            lat: 51.89998338008335,
+            lng: -8.402590141269446
         }, "Juggling Workshop"],
 
         [{
-            lat: 51.89810202460546, lng: -8.42096372432869
+            lat: 51.89810202460546,
+            lng: -8.42096372432869
         }, "Main Stage "],
 
         [{
-            lat: 51.898235891133474, lng: -8.412976695458156
+            lat: 51.898235891133474,
+            lng: -8.412976695458156
         }, "Outdoor Jazz Performance"],
 
         [{
-            lat: 51.89884668490031, lng: -8.421636912591142
+            lat: 51.89884668490031,
+            lng: -8.421636912591142
         }, "Coffee Dock"],
 
         [{
-            lat: 51.89848276735153, lng: -8.41922274884678
+            lat: 51.89848276735153,
+            lng: -8.41922274884678
         }, "Street Food"],
 
         [{
-            lat: 51.897765678640184, lng: -8.41306095688119
-        }, "Outdoor Film Screening"]
+            lat: 51.897765678640184,
+            lng: -8.41306095688119
+        }, "Outdoor Film Screening"],
 
         [{
-            lat: 51.89747107620612, lng: -8.412610321668772
-        }, "Outdoor Bar Area"]
-
+            lat: 51.89747107620612,
+            lng: -8.412610321668772
+        }, "Outdoor Bar Area"],
     ];
     // Create an info window to share between markers.
     const infoWindow = new google.maps.InfoWindow();
@@ -66,5 +73,5 @@ function initMap() {
             infoWindow.open(marker.getMap(), marker);
         });
     });
-    
+
 }
